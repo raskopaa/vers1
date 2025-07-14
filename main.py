@@ -18,7 +18,7 @@ import os
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-token = "7463793572:AAGz8bMwOzxZyoxBLj8uwJKZtNtfM0aMmLY"
+token = 
 def load_user_data_from_file():
     global user_data
     try:

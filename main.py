@@ -14,11 +14,12 @@ from telegram.ext import (
 import json
 import os
   # Импортируем обработчик расписания отделов
+from conf import token
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-token = 
+
 def load_user_data_from_file():
     global user_data
     try:

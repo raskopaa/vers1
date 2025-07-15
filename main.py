@@ -1,9 +1,7 @@
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler,ConversationHandler, ContextTypes
 from handlers.start import  start, cancel, CHOOSING_ROLE, choose_role_callback, handle_inline_buttons
-from handlers.department import get_department_handlers, get_admin_reply_handler
-from handlers.career_test import get_career_test_handler
+
 import logging
-from handlers.admin import get_admin_handlers
 from telegram.ext import (
     ApplicationBuilder,
     CommandHandler,
